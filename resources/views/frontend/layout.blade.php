@@ -22,7 +22,7 @@
 </head>
 <body>
 
-    <div class="navbar main-nav navbar-inverse navbar-fixed-top">
+    <div class="navbar main-nav navbar-inverse">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
