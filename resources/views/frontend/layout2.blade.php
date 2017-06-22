@@ -38,11 +38,18 @@
 
                       </ul>
                     </li>
-                    <li><a href="#contact">Sellers and Buyers</a></li>
-                    <li><a href="#">Market Stats</a></li>
-                    <li><a href="#">Around Town</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Meet the Team</a></li>
+                    <li class="dropdown">
+                      <a href="#contact" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sellers and Buyers <i class="ti-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="/selling">Selling</a></li>
+                        <li><a href="/buying">Buying</a></li>
+
+                      </ul>
+                    </li>
+                    <li><a href="/market-stats">Market Stats</a></li>
+                    <li><a href="/around-town">Around Town</a></li>
+                    <li><a href="/testimonials">Testimonials</a></li>
+                    <li><a href="/meet-the-team">Meet the Team</a></li>
                     <li><a href="/contact">Contact</a></li>
                     <!-- <li><a class="nav-contact-button" href="#">
                             <span style="margin-right: 10px;">

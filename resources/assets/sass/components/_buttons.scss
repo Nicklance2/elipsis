@@ -5,6 +5,7 @@
   border-color: #fff;
   font-family: 'Harmonia Sans Pro';
   padding: 22px 46px 22px 46px;
+  display: inline-block;
 }
 .call-to-action-btn-1{
     background: #fff;
@@ -20,6 +21,17 @@
   color: #fff;
   font-size: 18px;
   padding: 22px 46px 22px 46px;
+  display: inline-block;
+}
+.btn-black-big.hover2:hover{
+  background: transparent;
+  border: 3px solid #000;
+  color: #000;
+}
+.btn-black{
+  background: #000;
+  color: #fff;
+  display: inline-block;
 }
 .btn-black-lined{
   background: transparent;

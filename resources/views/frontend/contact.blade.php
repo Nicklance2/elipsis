@@ -28,7 +28,7 @@
         <div class="form-group">
           <textarea class="form-control" rows="3" placeholder="Message"></textarea>
         </div>
-        <button type="submit" class="call-to-action-btn-1" style="margin-top: 40px;">Send Message</div>
+        <button type="submit" class="call-to-action-btn-1" style="margin-top: 40px;">Send Message</button>
       </form>
     </div>
   </div>

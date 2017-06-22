@@ -25,3 +25,27 @@ Route::get('/our-recent-transactions', function () {
 Route::get('/contact', function () {
     return view('frontend.contact');
 });
+
+Route::get('/selling', function () {
+    return view('frontend.selling');
+});
+
+Route::get('/buying', function () {
+    return view('frontend.buying');
+});
+
+Route::get('/market-stats', function () {
+    return view('frontend.market-stats');
+});
+
+Route::get('/around-town', function () {
+    return view('frontend.around-town');
+});
+
+Route::get('/testimonials', function () {
+    return view('frontend.testimonials');
+});
+
+Route::get('/meet-the-team', function () {
+    return view('frontend.meet-the-team');
+});

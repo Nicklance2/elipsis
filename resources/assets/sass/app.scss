@@ -64,6 +64,7 @@ p{
   font-weight: 100;
   font-size: 16px;
   color: #000;
+  line-height: 26px;
 }
 h1 {
   font-family: "Tiempos Headline"!important
@@ -507,4 +508,163 @@ padding-left: 5px;
     letter-spacing: 10px;
     font-weight: 500;
     font-style: normal;
+}
+
+.bg-white{
+  background: #fff;
+}
+
+.selling-section1{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.selling-section1 h1, .selling-section2 h1, .buying-section2 h1{
+  font-size: 47px;
+  line-height: 70px;
+}
+.selling-section1 p, .selling-section2 p, .buying-section2 p, .selling-section3 p{
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 100;
+}
+.selling-section2{
+  background: url(/images/pict2.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.buying-section2{
+  background: url(/images/pict4.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.selling-section2 .tint-wrap, .buying-section2 .tint-wrap{
+  background: rgba(0, 0, 0, 0.37);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.selling-section2 p, .selling-section2 h1, .selling-section2 h3, .buying-section2 p, .buying-section2 h1, .buying-section2 h3{
+  color: #fff;
+  font-weight: bold;
+}
+
+.padding-vertical-100{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.text-bold, .bold{
+  font-weight: bold;
+}
+.selling-contact-section{
+  background: url(/images/dots-bg1.png) no-repeat center center;
+  background-size: cover;
+  padding: 0px !important;
+}
+.selling-contact-section .tint-wrap{
+  background: rgba(0, 0, 0, 0.75);
+}
+.content-text-white p, .content-text-white h3, .content-text-white h1, .content-text-white h2, .content-text-white h4{
+  color: #fff;
+}
+
+
+
+.style1-section{
+  background: url(/images/pict2.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.buying-section4{
+  background-image: url(/images/pict7.png);
+}
+.style1-section h1{
+  font-size: 47px;
+  line-height: 70px;
+}
+.style1-section p{
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 100;
+}
+
+.style1-section .tint-wrap{
+  background: rgba(0, 0, 0, 0.37);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.at-post{
+  padding-left: 80px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.at-post .at-post-content{
+  border-bottom: 1px solid #e4e4e3;
+  border-top: 1px solid #e4e4e3;
+  padding-bottom: 40px;
+}
+.at-post-content p, .at-post-content ul li{
+  line-height: 26px;
+}
+.at-post .calendar-box{
+  width: 61px;
+  height: 61px;
+  border-style: solid solid solid solid;
+  border-width: 5px 1px 1px 1px;
+  border-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.at-post .calendar-box .cal-num{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  display: inline-block;
+  color: #000;
+}
+.at-post .calendar-box .cal-month{
+  font-size: 16px;
+  font-weight: 100;
+}
+.at-post .date-posted{
+  display: inline-block;
+  padding-top: 10px;
+}
+.at-post .read-more{
+  margin-top: 10px;
+}
+.testimonial-section .testimonial{
+  margin-bottom: 60px;
+}
+.testimonial-section .testimonial p{
+  font-size: 20px;
+    line-height: 28px;
+    color: #3b3b3b;
+}
+.testimonial-section .testimonial h4{
+  font-size: 28px;
+  line-height: 46px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+.testimonial-section .testimonial h5{
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 100;
+}
+.team-member{
+  padding-top: 50px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #3b3b3b;
+}
+.team-member:last-child{
+  border-bottom: 0px;
+}
+.team-member .team-content{
+  display: inline-block;
+}
+.team-member p{
+  color: #3b3b3b;
+}
+.team-member a{
+  color: #000;
 }

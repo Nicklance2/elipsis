@@ -1,6 +1,6 @@
 @extends('frontend.layout')
 @section('content')
-    <div class="home-top-section">
+    <div class="home-top-section" style="margin-top: -22px;">
         <div class="container">
             <div class="vertical-center">
                 <h1 class="text-center" style="padding-bottom: 40px; margin-bottom:0px; margin-top: 0px;">Let us guide you home.</h1>
